@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url("../img/foto2.jpg");
+  height: 250px;
+  background-size: 100%;
+  background-position: 0 -300px;
+  transition: ease 1s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 5px 15px black;
+  z-index: 100;
+}
+nav {
+  background-color: rgba(238, 74, 74, 0.7);
+  text-align: center;
+  padding: 20px 0;
+}
+li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+a {
+  font-family: Verdana;
+  font-size: 10pt;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-shadow: 1px 1px 2px silver;
+}
+main {
+  margin-top: 300px;
+  padding: 0 30px;
+  text-align: justify;
+  line-height: 22.5pt;
+  font-size: 15pt;
+}
+
+p {
+  margin-bottom: 15pt;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  opacity: 70%;
+  transition: ease 0.5s;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 100%;
+  transform: scale(1.5);
+  border-radius: 0;
+}
+div {
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(100, 100, 100);
+  text-align: center;
+  padding: 50px;
+  font-family: arial;
+  font-size: 10pt;
+  color: white;
+}
